@@ -1,10 +1,12 @@
-# Flyer A6 — bestellen in 3 stappen
+# Flyer A6 — bestellen in 2 stappen
 
-Print-ready flyer voor brievenbussen, prikborden (supermarkt, bibliotheek, buurthuis), wasserettes en seniorencafé. Zelfde visuele taal als het visitekaartje. Telefoon, e-mail en website staan er al in — direct stuurklaar.
+Print-ready flyer voor brievenbussen, prikborden (supermarkt, bibliotheek, buurthuis), wasserettes en seniorencafé. Zelfde visuele taal als het visitekaartje. **`flyer.pdf`** is direct stuurklaar — A6 staand, 111×154mm incl. 3mm bleed.
 
-## 1. Preview bekijken (30 sec)
+## 1. Preview bekijken (30 sec, optioneel)
 
-Open `preview.html` in je browser. Flyer staat op werkelijke grootte (A6, 105×148mm). Klopt alles? Door naar stap 2.
+Open `preview.html` in je browser om de flyer op werkelijke grootte (A6, 105×148mm) te zien. Of open `flyer.pdf` direct.
+
+> **Tekst gewijzigd?** Run `marketing/generate-pdfs.ps1` (dubbelklikken) om de PDF te regenereren.
 
 ## 2. Uploaden bij drukker (5 min)
 
@@ -12,12 +14,12 @@ Open `preview.html` in je browser. Flyer staat op werkelijke grootte (A6, 105×1
 - Ga naar [drukwerkdeal.nl/flyers](https://www.drukwerkdeal.nl/nl/flyers)
 - Kies: **A6 (105×148mm)** · **enkelzijdig** · **170 gr/m² gesatineerd MC**
 - Aantal: **500 stuks** (~€25-30, levering 2-4 dagen) of **1000 stuks** (~€40-50)
-- Upload `flyer.svg`
+- Upload **`flyer.pdf`**
 
 ### Optie B — Vistaprint (goedkoper, maar 5-7 dagen)
 - Ga naar [vistaprint.nl/flyers-folders/flyers](https://www.vistaprint.nl/flyers-folders/flyers)
 - Kies: **A6** · enkelzijdig · 170 gr
-- Upload de SVG of converteer eerst naar PDF via [cloudconvert.com](https://cloudconvert.com/svg-to-pdf)
+- Upload **`flyer.pdf`**
 
 ## 3. Verspreiden
 
@@ -42,8 +44,9 @@ Open `preview.html` in je browser. Flyer staat op werkelijke grootte (A6, 105×1
 
 | Bestand | Wat |
 |---|---|
-| `flyer.svg` | Print-ready vector — A6 staand met 3mm bleed |
-| `preview.html` | Visuele preview op werkelijke grootte — open in browser |
+| **`flyer.pdf`** | **Print-ready PDF — direct uploaden bij drukker** |
+| `flyer.svg` | Source vector — A6 staand met 3mm bleed |
+| `preview.html` | Visuele preview op werkelijke grootte — bron voor de PDF |
 
 ## Specificaties (voor bij druk)
 
@@ -56,6 +59,6 @@ Open `preview.html` in je browser. Flyer staat op werkelijke grootte (A6, 105×1
 
 ## Troubleshooting
 
-**Drukker zegt "lettertype ontbreekt"**: open SVG in Inkscape (gratis), Object → Tekst → "Convert text to path", export opnieuw. Of upload als PDF via cloudconvert.com.
+**Tekst aanpassen** (andere actie, bepaalde doelgroep): bewerk `preview.html` of `flyer.svg` in een tekst-editor (VS Code / Notepad). Run daarna `marketing/generate-pdfs.ps1` om de PDF te regenereren.
 
-**Andere tekst nodig** (bijv. een actie of bepaalde doelgroep)? SVG is een gewoon tekstbestand — open in Notepad/VS Code, zoek de tekst, vervang. Of vraag mij.
+**Drukker meldt issue met PDF**: regenereer met `generate-pdfs.ps1` om een verse versie te krijgen, of upload de SVG als alternatief.
