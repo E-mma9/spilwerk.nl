@@ -49,12 +49,14 @@
     display: flex; flex-direction: column;
   }
   .front-brand { display: flex; align-items: center; gap: 4.5mm; margin-top: 4mm; }
-  .front-dot { width: 4.8mm; height: 4.8mm; border-radius: 50%; background: var(--green); }
+  .front-dot { width: 4.8mm; height: 4.8mm; border-radius: 50%; background: radial-gradient(circle, var(--paper) 0 35%, var(--green) 36% 100%); }
   .front-name { font-size: 6.5mm; font-weight: 800; letter-spacing: -0.4mm; line-height: 1; color: var(--ink); }
   .front-sub { font-size: 3mm; font-weight: 500; color: var(--ink-2); margin: 1.5mm 0 0 9.3mm; }
   .front-line { width: 14mm; height: 0.5mm; background: var(--green); border-radius: 1mm; margin: 8mm 0 auto; }
-  .front-person-name { font-size: 3.8mm; font-weight: 700; color: var(--ink); }
-  .front-person-role { font-size: 2.7mm; font-weight: 500; color: var(--ink-3); margin-top: 1mm; }
+  .front-people { display: flex; gap: 6mm; }
+  .front-person { flex: 1; }
+  .front-person-name { font-size: 3.6mm; font-weight: 700; color: var(--ink); }
+  .front-person-role { font-size: 2.6mm; font-weight: 500; color: var(--ink-3); margin-top: 1mm; }
 
   /* ─── ACHTERZIJDE ─── */
   .back {
@@ -98,7 +100,7 @@
 <h1>Spilwerk visitekaartje · preview op werkelijke grootte</h1>
 <p class="intro">
   Beide kanten op 91×61mm (85×55mm + 3mm bleed). Open in browser, print → "PDF opslaan", upload bij drukker.
-  Vergeet niet eerst je 06-nummer in te vullen — pas <code>achterzijde.svg</code> en/of <code>voorzijde.svg</code> aan.
+  Klaar om te uploaden bij de drukker — alle gegevens (06 87 43 35 37 · admin@spilwerk.nl) zijn ingevuld.
 </p>
 
 <div class="cards">
@@ -110,16 +112,24 @@
     </div>
     <div class="front-sub">IT-hulp aan huis · heel Overijssel</div>
     <div class="front-line"></div>
-    <div class="front-person-name">Emmanuel Tekle</div>
-    <div class="front-person-role">Eigenaar</div>
+    <div class="front-people">
+      <div class="front-person">
+        <div class="front-person-name">Emmanuel Tekle</div>
+        <div class="front-person-role">IT-consultant</div>
+      </div>
+      <div class="front-person">
+        <div class="front-person-name">Eren Kongul</div>
+        <div class="front-person-role">IT-consultant</div>
+      </div>
+    </div>
   </div>
 
   <div class="card back">
     <div class="card-label">Achterzijde</div>
-    <div class="back-phone">06 — XX XX XX XX</div>
-    <div class="back-contact">emmanueltekle@gmail.com<br>spilwerk.nl</div>
+    <div class="back-phone">06 87 43 35 37</div>
+    <div class="back-contact">admin@spilwerk.nl<br>spilwerk.nl</div>
     <div class="back-divider"></div>
-    <div class="back-tag">Vanaf €55 · werkt het niet = €0</div>
+    <div class="back-tag">Reactie binnen 24 uur · Werkt het niet = €0</div>
     <div class="back-services">Computer · Wifi · Telefoon<br>Backup · Voor zelfstandigen</div>
   </div>
 </div>

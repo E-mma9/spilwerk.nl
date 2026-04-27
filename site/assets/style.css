@@ -145,7 +145,7 @@ h4 { font-size: 1rem; }
 }
 .brand-dot {
   width: 0.7rem; height: 0.7rem; border-radius: 50%;
-  background: var(--accent);
+  background: radial-gradient(circle, var(--paper) 0 35%, var(--accent) 36% 100%);
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 25%, transparent);
 }
 .site-header nav { display: flex; gap: 0.5rem; align-items: center; }

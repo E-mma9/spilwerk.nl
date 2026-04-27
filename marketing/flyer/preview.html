@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<title>Spilwerk flyer — preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FBF6EE;
+    --green: #4A7C59;
+    --ink: #2A2A28;
+    --ink-2: #4F4D48;
+    --ink-3: #807D75;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Manrope', sans-serif;
+    background: #E8E4DA;
+    padding: 30px 20px;
+    color: var(--ink);
+  }
+  h1 { font-size: 1.5rem; margin-bottom: 0.5rem; font-weight: 700; }
+  .intro { color: var(--ink-2); margin-bottom: 2.5rem; font-size: 0.95rem; max-width: 50ch; }
+  .flyer-wrap { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
+
+  .flyer {
+    width: 111mm;
+    height: 154mm;
+    background: var(--paper);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    padding: 6mm 6mm 0 6mm;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand { display: flex; align-items: center; gap: 4.5mm; margin-top: 5mm; }
+  .brand-dot { width: 5.6mm; height: 5.6mm; border-radius: 50%; background: radial-gradient(circle, var(--paper) 0 35%, var(--green) 36% 100%); }
+  .brand-name { font-size: 7.2mm; font-weight: 800; letter-spacing: -0.4mm; line-height: 1; color: var(--ink); }
+  .brand-sub { font-size: 3.1mm; font-weight: 500; color: var(--ink-2); margin: 1.5mm 0 0 10.1mm; }
+
+  .accent { width: 13mm; height: 0.6mm; background: var(--green); border-radius: 1mm; margin: 7mm 0 6mm 3mm; }
+
+  .headline { font-size: 9.5mm; font-weight: 800; letter-spacing: -0.3mm; line-height: 1.1; margin-left: 3mm; }
+  .sub-cta { font-size: 6.8mm; font-weight: 700; color: var(--green); margin: 5mm 0 0 3mm; line-height: 1.1; }
+  .body-line { font-size: 3.4mm; font-weight: 500; color: var(--ink-2); margin: 0 0 0 3mm; line-height: 1.5; }
+  .body-line.first { margin-top: 4mm; }
+
+  .eyebrow { font-size: 2.7mm; font-weight: 700; letter-spacing: 0.4mm; color: var(--green); margin: 6mm 0 2.5mm 3mm; text-transform: uppercase; }
+
+  .services { display: flex; gap: 6mm; margin-left: 3mm; }
+  .col { display: flex; flex-direction: column; gap: 1.5mm; flex: 1; }
+  .item { font-size: 3.4mm; font-weight: 600; color: var(--ink); }
+
+  .cta-card {
+    margin: auto 0 6mm 0;
+    background: var(--green);
+    color: var(--paper);
+    border-radius: 3.5mm;
+    padding: 4mm 4mm 3.5mm;
+  }
+  .cta-phone { font-size: 7.5mm; font-weight: 800; line-height: 1; }
+  .cta-sub { font-size: 2.6mm; font-weight: 500; opacity: 0.88; margin-top: 2mm; }
+
+  .legend {
+    margin-top: 3rem;
+    background: white;
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    font-size: 0.92rem;
+    max-width: 50ch;
+  }
+  .legend ul { padding-left: 1.2rem; margin-top: 0.5rem; }
+  .legend li { margin: 0.3rem 0; }
+  .legend strong { color: var(--ink); }
+
+  @media print {
+    body { background: white; padding: 0; }
+    h1, .intro, .legend { display: none !important; }
+    .flyer { box-shadow: none; border-radius: 0; }
+    @page { size: 111mm 154mm; margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Spilwerk flyer · preview op werkelijke grootte (A6)</h1>
+<p class="intro">
+  Formaat 111×154mm (A6 105×148mm + 3mm bleed rondom). Klaar om te uploaden bij de drukker.
+  Telefoon, e-mail en website zijn ingevuld.
+</p>
+
+<div class="flyer-wrap">
+  <div class="flyer">
+    <div class="brand">
+      <div class="brand-dot"></div>
+      <div class="brand-name">SPILWERK</div>
+    </div>
+    <div class="brand-sub">IT-hulp aan huis · heel Overijssel</div>
+    <div class="accent"></div>
+
+    <div class="headline">Computer kapot?</div>
+    <div class="headline">Wifi traag?</div>
+    <div class="headline">Telefoon doet raar?</div>
+
+    <div class="sub-cta">Wij komen langs.</div>
+    <div class="body-line first">Vriendelijk, vaste tarieven, geen jargon.</div>
+    <div class="body-line">Werkt het niet? Geen kosten.</div>
+
+    <div class="eyebrow">Waarmee wij helpen</div>
+    <div class="services">
+      <div class="col">
+        <div class="item">• Computer &amp; laptop</div>
+        <div class="item">• Wifi &amp; internet</div>
+        <div class="item">• Telefoon &amp; tablet</div>
+      </div>
+      <div class="col">
+        <div class="item">• Backup &amp; veilig online</div>
+        <div class="item">• Voor zelfstandigen</div>
+      </div>
+    </div>
+
+    <div class="cta-card">
+      <div class="cta-phone">06 87 43 35 37</div>
+      <div class="cta-sub">spilwerk.nl  ·  admin@spilwerk.nl  ·  Reactie binnen 24 uur</div>
+    </div>
+  </div>
+</div>
+
+<div class="legend">
+  <strong>Voor druk:</strong>
+  <ul>
+    <li>Bestel als <strong>A6 enkelzijdig</strong> — 105×148mm</li>
+    <li>Papier: <strong>170 gr/m² gesatineerd</strong> (voelt sturdy genoeg voor brievenbus &amp; prikbord)</li>
+    <li>Aantal: <strong>500 stuks</strong> (~€25-35) of <strong>1000 stuks</strong> (~€40-50) — verspreiden over 3-4 weekenden</li>
+    <li>Upload <code>flyer.svg</code> direct, of converteer eerst naar PDF via <a href="https://cloudconvert.com/svg-to-pdf">cloudconvert.com</a></li>
+  </ul>
+</div>
+
+</body>
+</html>

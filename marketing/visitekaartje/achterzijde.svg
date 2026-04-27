@@ -18,13 +18,13 @@
   <text x="8" y="17"
         font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="6" font-weight="700"
-        fill="#FBF6EE">06 — XX XX XX XX</text>
+        fill="#FBF6EE">06 87 43 35 37</text>
 
   <!-- E-mail -->
   <text x="8" y="24"
         font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="2.7" font-weight="500"
-        fill="#FBF6EE" fill-opacity="0.92">emmanueltekle@gmail.com</text>
+        fill="#FBF6EE" fill-opacity="0.92">admin@spilwerk.nl</text>
 
   <!-- Website -->
   <text x="8" y="29"
@@ -40,7 +40,7 @@
   <text x="8" y="41"
         font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="2.6" font-weight="600"
-        fill="#FBF6EE">Vanaf €55 · werkt het niet = €0</text>
+        fill="#FBF6EE">Reactie binnen 24 uur · Werkt het niet = €0</text>
 
   <!-- Diensten -->
   <text x="8" y="51"

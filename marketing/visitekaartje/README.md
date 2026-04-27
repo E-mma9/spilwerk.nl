@@ -1,14 +1,12 @@
-# Visitekaartje — bestellen in 4 stappen
+# Visitekaartje — bestellen in 3 stappen
 
-## 1. Telefoonnummer invullen (1 min)
+Alle gegevens staan er al in (06 87 43 35 37 · admin@spilwerk.nl · Emmanuel + Eren als IT-consultant). Direct stuurklaar voor de drukker.
 
-Open `voorzijde.svg` en `achterzijde.svg` in een tekst-editor (Notepad / VS Code). Zoek `XX XX XX XX` en vervang met je echt 06-nummer.
+## 1. Preview bekijken (30 sec)
 
-## 2. Preview bekijken (30 sec)
+Open `preview.html` in je browser. Beide kanten staan op werkelijke grootte naast elkaar. Klopt alles? Door naar stap 2.
 
-Open `preview.html` in je browser. Beide kanten staan op werkelijke grootte naast elkaar. Klopt alles? Door naar stap 3.
-
-## 3. Uploaden bij drukker (5 min)
+## 2. Uploaden bij drukker (5 min)
 
 Twee opties — beide werken met SVG of PDF:
 
@@ -23,7 +21,7 @@ Twee opties — beide werken met SVG of PDF:
 - Kies: **Standaard 85×54mm** · dubbelzijdig
 - Upload de SVG's of converteer eerst naar PDF via [cloudconvert.com](https://cloudconvert.com/svg-to-pdf)
 
-## 4. Klaar
+## 3. Klaar
 
 Levering 2-7 dagen. Rondbrengen volgens `marketing/tracker.md` § "Flyers + visitekaartjes — waar ze ophangen".
 

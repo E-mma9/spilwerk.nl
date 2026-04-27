@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Spilwerk flyer · A6 staand
+  Formaat: 111mm × 154mm (A6 = 105×148mm met 3mm bleed rondom)
+  Veilige zone: 5mm naar binnen vanaf zichtbare rand
+  Enkelzijdig — voor brievenbussen, prikborden, bibliotheken, supermarkten
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="111mm" height="154mm"
+     viewBox="0 0 111 154">
+
+  <!-- Achtergrond (paper-crème) -->
+  <rect width="111" height="154" fill="#FBF6EE"/>
+
+  <!-- ─── Brand top — spil-merkmark (groene ring + crème centrum) ─── -->
+  <circle cx="13" cy="14" r="2.8" fill="#4A7C59"/>
+  <circle cx="13" cy="14" r="1" fill="#FBF6EE"/>
+  <text x="18.5" y="15.8"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="7.2" font-weight="800"
+        letter-spacing="-0.2"
+        fill="#2A2A28">SPILWERK</text>
+  <text x="18.5" y="21"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.1" font-weight="500"
+        fill="#4F4D48">IT-hulp aan huis · heel Overijssel</text>
+
+  <!-- Decoratieve accent-lijn -->
+  <line x1="9" y1="34" x2="22" y2="34"
+        stroke="#4A7C59" stroke-width="0.6" stroke-linecap="round"/>
+
+  <!-- ─── Headline ─── -->
+  <text x="9" y="49"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="9.5" font-weight="800"
+        letter-spacing="-0.3"
+        fill="#2A2A28">Computer kapot?</text>
+  <text x="9" y="60"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="9.5" font-weight="800"
+        letter-spacing="-0.3"
+        fill="#2A2A28">Wifi traag?</text>
+  <text x="9" y="71"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="9.5" font-weight="800"
+        letter-spacing="-0.3"
+        fill="#2A2A28">Telefoon doet raar?</text>
+
+  <!-- Sub-CTA -->
+  <text x="9" y="84"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="6.8" font-weight="700"
+        fill="#4A7C59">Wij komen langs.</text>
+
+  <!-- Body description -->
+  <text x="9" y="93"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.4" font-weight="500"
+        fill="#4F4D48">Vriendelijk, vaste tarieven, geen jargon.</text>
+  <text x="9" y="98"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.4" font-weight="500"
+        fill="#4F4D48">Werkt het niet? Geen kosten.</text>
+
+  <!-- ─── Eyebrow voor diensten ─── -->
+  <text x="9" y="110"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.7" font-weight="700"
+        letter-spacing="0.4"
+        fill="#4A7C59">WAARMEE WIJ HELPEN</text>
+
+  <!-- Diensten — twee kolommen -->
+  <text x="9" y="117"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.4" font-weight="600"
+        fill="#2A2A28">• Computer &amp; laptop</text>
+  <text x="9" y="122"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.4" font-weight="600"
+        fill="#2A2A28">• Wifi &amp; internet</text>
+  <text x="9" y="127"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.4" font-weight="600"
+        fill="#2A2A28">• Telefoon &amp; tablet</text>
+
+  <text x="60" y="117"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.4" font-weight="600"
+        fill="#2A2A28">• Backup &amp; veilig online</text>
+  <text x="60" y="122"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.4" font-weight="600"
+        fill="#2A2A28">• Voor zelfstandigen</text>
+
+  <!-- ─── Groene CTA-kaart onderaan ─── -->
+  <rect x="9" y="132" width="93" height="18" rx="3.5" fill="#4A7C59"/>
+
+  <!-- Telefoon (primaire CTA) -->
+  <text x="13" y="142"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="7.5" font-weight="800"
+        fill="#FBF6EE">06 87 43 35 37</text>
+
+  <!-- Sub-info in CTA-kaart -->
+  <text x="13" y="147.5"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.6" font-weight="500"
+        fill="#FBF6EE" fill-opacity="0.88">spilwerk.nl  ·  admin@spilwerk.nl  ·  Reactie binnen 24 uur</text>
+
+</svg>
