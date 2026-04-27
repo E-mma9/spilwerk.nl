@@ -4,7 +4,7 @@ Dit bestand wordt automatisch geladen bij elke Claude Code-sessie in deze map. H
 
 ## Wat dit project is
 
-Werkmap voor **Spilwerk**, eenmanszaak (in voorbereiding) van Emmanuel Tekle. **Vriendelijke IT-hulp aan huis** voor particulieren en zelfstandige professionals in heel Overijssel. Heuvelshulp-achtig model — niet een MKB-consultant, wel een laagdrempelige "ik kom langs"-dienst.
+Werkmap voor **Spilwerk**, opgericht door Emmanuel Tekle en Eren Kongul. **Vriendelijke IT-hulp aan huis** voor particulieren en zelfstandige professionals in heel Overijssel. Heuvelshulp-achtig model — niet een MKB-consultant, wel een laagdrempelige "ik kom langs"-dienst.
 
 ## Wat dit project NIET is
 
@@ -64,7 +64,7 @@ Case study webapp: `/werk/tankstation.html` — bewijst dat hij grotere dingen a
 - Telefoonnummer: **06-87433537** (ingevuld in site/assets/script.js en site/index.html).
 - Werkgebied: **heel Overijssel** (Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen, Zwolle, Deventer, Kampen, Steenwijk, etc.)
 - Total Tankstation case study staat live als `werk/tankstation.html` — gebruik 'm voor zelfstandige-professionals doelgroep, niet als hoofdverhaal voor particulieren.
-- Emmanuel is 21, 3e jaar HBO ICT (Cloud & Cybersecurity, Saxion), parttime helpdesk-engineer bij Livio. Eerlijk over student-status op site — geen schande, juist credibility-boost.
+- Emmanuel Tekle (21) en Eren Kongul (21) — beiden 3e jaar HBO ICT (Cloud & Cybersecurity, Saxion). Emmanuel werkt parttime als helpdesk-engineer bij Livio. Eerlijk over student-status op site — geen schande, juist credibility-boost.
 
 ## Werkwijze in deze repo
 
