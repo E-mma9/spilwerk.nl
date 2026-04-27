@@ -64,7 +64,7 @@ Case study webapp: `/werk/tankstation.html` — bewijst dat hij grotere dingen a
 - Telefoonnummer: **06-87433537** (ingevuld in site/assets/script.js en site/index.html).
 - Werkgebied: **heel Overijssel** (Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen, Zwolle, Deventer, Kampen, Steenwijk, etc.)
 - Total Tankstation case study staat live als `werk/tankstation.html` — gebruik 'm voor zelfstandige-professionals doelgroep, niet als hoofdverhaal voor particulieren.
-- Emmanuel Tekle (21) en Eren Kongul (21) — beiden 3e jaar HBO ICT (Cloud & Cybersecurity, Saxion). Emmanuel werkt parttime als helpdesk-engineer bij Livio. Eerlijk over student-status op site — geen schande, juist credibility-boost.
+- Emmanuel Tekle (20) en Eren Kongul (20) — beiden 3e jaar HBO ICT (Cloud & Cybersecurity, Saxion). Emmanuel werkt parttime als helpdesk-engineer bij Livio. Eerlijk over student-status op site — geen schande, juist credibility-boost.
 
 ## Werkwijze in deze repo
 
