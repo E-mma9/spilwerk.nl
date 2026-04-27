@@ -56,6 +56,17 @@ Plus eenmalig: KvK-inschrijving €82,25.
 | Vertrekkende medewerker offboarden | €85 | ~1,5u |
 | Halve dag op locatie (e-mail + boekhouding + backup) | €175 | ~5u (incl. reis) |
 
+**Websites & applicaties:**
+
+| Klus | Prijs | Tijd-investering |
+|---|---:|---:|
+| Website bouwen — statisch (incl. domein + hosting-setup) | €450 | ~8u |
+| Website bouwen — WordPress (incl. domein + hosting) | €595 | ~12u |
+| Webapplicatie / maatwerk tool (scope-afhankelijk) | vanaf €950 | ~20u+ (na gesprek) |
+| Monitoring abonnement (setup + maandelijks beheer) | €25/mnd | 1u setup + 0,5u/mnd |
+
+🟢 **Websites en monitoring = terugkerend inkomen.** 10 monitoring-klanten = €250/mnd passief. Websites en apps zijn eenmalig hoog bedrag + goede marge (~€37-45/u na aftrek tools).
+
 ## Kostprijs per type bezoek
 
 ### Bezoek aan huis — gemiddeld

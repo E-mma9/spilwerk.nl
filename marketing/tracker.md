@@ -8,13 +8,13 @@ Dit bestand is je werklijst voor de eerste 30-60 dagen.
 
 ## ⚡ Vandaag — 30 minuten werk, hoogste leverage
 
-- [ ] **(5 min)** GitHub PAT revoken — staat in oude transcripts (`ghp_fOLK...`). Direct uitzetten op [github.com/settings/tokens](https://github.com/settings/tokens)
-- [ ] **(10 min)** Domein registreren `spilwerk.nl` bij TransIP / Mijndomein (€8/jr)
+- [x] **(5 min)** GitHub PAT — niet van toepassing
+- [x] **(10 min)** Domein registreren `spilwerk.nl` bij TransIP / Mijndomein (€8/jr) — ✓ gekocht
 - [ ] **(15 min)** Google Business Profile (gratis) aanmaken op [google.com/business](https://www.google.com/business/) — dit is **veruit het belangrijkste kanaal** voor B2C lokaal werk
 
 ## 📅 Deze week — fundament leggen
 
-- [ ] **(45 min)** Site live op Cloudflare Pages (instructies in `../README.md`)
+- [ ] **(45 min)** Site live op GitHub Pages (instructies hieronder)
 - [ ] **(30 min)** WhatsApp Business installeren op je telefoon (gratis), zakelijk profiel met openingstijden + diensten + prijzen
 - [ ] **(20 min)** Marktplaats-advertentie plaatsen onder "Diensten en Vakmensen → Computer en internet aan huis"
 - [ ] **(20 min)** Werkspot-profiel aanmaken (hier zoeken particulieren actief naar IT-hulpers)

@@ -29,13 +29,17 @@ Bij wijzigingen aan diensten **drie plekken synchroon houden**:
 
 | Dienst | Tarief | Voor wie |
 |---|---|---|
-| Computer-hulp (traag, virus, herinstallatie) | vanaf €60/bezoek | Particulier |
-| Wifi & internet | vanaf €60/bezoek | Particulier |
-| Telefoon & tablet | vanaf €60/bezoek | Particulier (vaak senioren) |
-| Veilig online | vanaf €60/bezoek | Particulier + zelfstandigen |
-| Voor zelfstandigen (zakelijk e-mail, boekhouding-koppeling) | vanaf €195/halve dag | ZZP / zelfstandige professional |
+| Computer-hulp (traag, virus, herinstallatie) | vanaf €55/bezoek | Particulier |
+| Wifi & internet | vanaf €55/bezoek | Particulier |
+| Telefoon & tablet | vanaf €55/bezoek | Particulier (vaak senioren) |
+| Veilig online & backup | vanaf €55/bezoek | Particulier + zelfstandigen |
+| Voor zelfstandigen (zakelijk e-mail, backup, onboarding) | €175/halve dag | ZZP / zelfstandige professional |
+| Website bouwen (statisch) | €450 incl. hosting-setup | ZZP'er zonder site |
+| Website bouwen (WordPress) | €595 incl. domein + hosting | ZZP'er die zelf wil aanpassen |
+| Webapplicatie / maatwerk tool | vanaf €950 | Klein bedrijf met Excel-chaos |
+| Monitoring & alerts | €25/mnd per dienst | Iedereen met website of server |
 
-Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/tankstation.html`) — niet als hoofdaanbod, wel als bewijs dat hij grotere dingen aankan.
+Case study webapp: `/werk/tankstation.html` — bewijst dat hij grotere dingen aankan.
 
 ## Tariefstructuur (uurbasis, niet pakket-prijs)
 
@@ -55,9 +59,9 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 
 ## Belangrijke contextpunten
 
-- Domein `spilwerk.nl` is **nog niet geregistreerd**.
+- Domein `spilwerk.nl` is **geregistreerd** (april 2026). Nog niet live — site staat klaar voor Cloudflare Pages deploy.
 - KvK-inschrijving wordt opgepakt; Emmanuel wil dit voor expense-aftrek + officieel kunnen factureren.
-- Telefoon/WhatsApp-nummer **nog niet ingevuld** — placeholders staan in `site/assets/script.js` (zoek "EDIT HERE") en in `site/index.html` contact-sectie (`tel:+31600000000` en `wa.me/31600000000`). Hij vult dit in zodra hij een zakelijk 06-nummer heeft.
+- Telefoonnummer: **06-87433537** (ingevuld in site/assets/script.js en site/index.html).
 - Werkgebied: **heel Overijssel** (Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen, Zwolle, Deventer, Kampen, Steenwijk, etc.)
 - Total Tankstation case study staat live als `werk/tankstation.html` — gebruik 'm voor zelfstandige-professionals doelgroep, niet als hoofdverhaal voor particulieren.
 - Emmanuel is 21, 3e jaar HBO ICT (Cloud & Cybersecurity, Saxion), parttime helpdesk-engineer bij Livio. Eerlijk over student-status op site — geen schande, juist credibility-boost.
@@ -70,7 +74,7 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 
 ## Wat NIET doen zonder vraag
 
-- Geen pakketten / diensten toevoegen die hij niet expliciet kan leveren (eerder fout: NIS2, M365-migraties, AI-werksessie, koppelingen — allemaal te ambitieus voor zijn niveau)
+- Geen diensten toevoegen buiten scope: NIS2, M365-migraties, AI-werksessie, enterprise security — te ambitieus voor zijn niveau
 - Geen B2B / enterprise-koers voorstellen (dat pad is bewust losgelaten)
 - Geen logo / branding-assets genereren (groen rondje + naam is genoeg)
 - Geen tracking/analytics toevoegen (bewust geen Google Analytics)
