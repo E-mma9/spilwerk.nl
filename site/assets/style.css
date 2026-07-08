@@ -364,7 +364,7 @@ h4 { font-size: 1rem; }
 }
 .werk-teaser > * { position: relative; }
 .werk-teaser h2 { color: var(--paper); }
-.werk-teaser p { color: color-mix(in srgb, var(--paper) 80%, transparent); }
+.werk-teaser p { color: color-mix(in srgb, var(--paper) 80%, transparent); margin-top: 1rem; }
 .werk-teaser .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
 .werk-teaser .stat-num { font-size: 2rem; font-weight: 800; color: var(--warm); }
 .werk-teaser .stat-label { font-size: 0.88rem; color: color-mix(in srgb, var(--paper) 70%, transparent); }
@@ -372,7 +372,7 @@ h4 { font-size: 1rem; }
 
 /* ─── FAQ ────────────────────────────────────────────────────────── */
 
-.faq { max-width: 720px; margin: 0 auto; }
+.faq { max-width: 720px; margin: 2rem auto 0; }
 .faq details {
   background: var(--paper);
   border: 1.5px solid var(--paper-3);
@@ -478,7 +478,7 @@ h4 { font-size: 1rem; }
   color: var(--ink-2);
 }
 .regio-strip b { color: var(--ink); font-weight: 700; }
-.regio-strip svg { color: var(--accent); vertical-align: -0.1em; margin-right: 0.4em; }
+.regio-strip svg { display: inline; color: var(--accent); vertical-align: -0.15em; margin-right: 0.4em; }
 
 /* ─── Footer ─────────────────────────────────────────────────────── */
 
@@ -656,6 +656,7 @@ h4 { font-size: 1rem; }
   text-transform: uppercase; margin: 0 0 1rem;
 }
 .team-card p { color: var(--ink-2); font-size: 0.95rem; }
+.team-card--solo { grid-column: 1 / -1; max-width: 520px; }
 .team-footer {
   margin-top: 2rem; padding-top: 1.5rem;
   border-top: 1px solid var(--paper-3);
@@ -713,3 +714,62 @@ h4 { font-size: 1rem; }
   50%       { transform: translateY(-4px); }
 }
 .badge-pill { animation: float-badge 3.5s ease-in-out infinite; }
+
+/* ─── Section variants ───────────────────────────────────────────── */
+
+.section--tinted { background: color-mix(in srgb, var(--paper-2) 60%, var(--paper)); }
+
+/* ─── Eyebrow variant (op donkere achtergrond) ───────────────────── */
+
+.eyebrow--warm {
+  background: color-mix(in srgb, var(--warm) 28%, transparent);
+  color: var(--paper);
+}
+
+/* ─── Hero helpers ───────────────────────────────────────────────── */
+
+.hero .lede { margin-top: 1.25rem; }
+
+.portrait--duo {
+  background:
+    radial-gradient(circle at 25% 38%, color-mix(in srgb, var(--accent) 18%, transparent) 0%, transparent 55%),
+    radial-gradient(circle at 76% 62%, color-mix(in srgb, var(--warm) 16%, transparent) 0%, transparent 55%),
+    linear-gradient(155deg, color-mix(in srgb, var(--accent) 18%, var(--paper-2)), var(--paper-2));
+}
+
+/* ─── Steps variant (4-koloms Waarom-grid) ───────────────────────── */
+
+.waarom-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 2rem;
+}
+
+/* ─── Prijzen helpers ────────────────────────────────────────────── */
+
+#prijzen > .container > .lede { margin-bottom: 2rem; }
+
+.vaste-prijzen { margin-top: 2.5rem; }
+.vaste-prijzen > h3 { margin-bottom: 1rem; }
+.vaste-prijzen > .lede { margin-bottom: 1.5rem; }
+
+.prijs-cat {
+  display: inline-flex; align-items: center;
+  margin: 1.5rem 0 0.75rem;
+  font-weight: 700; font-size: 0.82rem;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--accent-2);
+  background: var(--accent-soft);
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+}
+
+.prijs-disclaimer { font-size: 0.9rem; color: var(--ink-3); margin-top: 1rem; }
+.vaste-prijzen .prijs-tabel { grid-column: 1 / -1; }
+
+/* ─── Werk teaser CTA spacing ────────────────────────────────────── */
+
+.werk-teaser .btn-secondary { margin-top: 1rem; }
+
+/* ─── Contact form heading ───────────────────────────────────────── */
+
+.contact-form-head { margin-bottom: 1rem; }
